@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>bpt Music Bot Picture</title>
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        width: 1024px;
+        height: 1024px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #121212;
+        font-family: "Arial Black", Arial, sans-serif;
+        overflow: hidden;
+      }
+      .container {
+        width: 900px;
+        height: 900px;
+        background: linear-gradient(270deg, #ff0057, #00ffe7, #ff0057, #00ffe7);
+        background-size: 800% 800%;
+        border-radius: 40px;
+        box-shadow: 0 0 40px rgba(255, 0, 87, 0.8);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-align: center;
+        animation: gradientShift 15s ease infinite;
+      }
+      h1 {
+        font-size: 96px;
+        margin: 0 0 20px 0;
+        letter-spacing: 8px;
+        text-shadow:
+          0 0 10px #ff0057,
+          0 0 20px #00ffe7;
+      }
+      .subtitle {
+        font-size: 36px;
+        margin-bottom: 40px;
+        color: #eee;
+        text-shadow:
+          0 0 8px #ff0057,
+          0 0 15px #00ffe7;
+      }
+      @keyframes gradientShift {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="container"
+      role="img"
+      aria-label="bpt Music Bot logo with vibrant animated background"
+    >
+      <h1>bpt</h1>
+      <div class="subtitle">Music Bot</div>
+    </div>
+  </body>
+</html>
